@@ -1,0 +1,170 @@
+:root{
+    --cor-texto: white;
+    --cor-escura: #3b4a54;
+    --cor-verde: #00a884;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.fundo{
+    background-color: black;
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.topo h2{
+    color: var(--cor-texto);
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.topo svg{
+    fill: var(--cor-texto);
+    width: 10px;
+    height: 20px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-bottom: 1px dotted white;
+    margin: 0 10px;
+}
+
+.amar{
+    margin: 5px 10px;
+}
+
+.oi {
+     margin-top: 10px;
+    margin-left: 10px;
+}
+
+.oi , .amar{
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 20px;
+    background-color: var(--cor-escura);
+}
+
+.amar .doublecheck,.oi .doublecheck{
+    width: 8px;
+    fill: aqua;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.amar .dropdown,.oi .dropdown{
+    width: 10px;
+    fill: black;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.oi:hover .dropdown{
+    width: 10px;
+    fill: white;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 3px; 
+    cursor: pointer;
+}
+
+.amar:hover .dropdown{
+    width: 10px;
+    fill: white;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+
+.boatarde:hover .dropdown{
+    width: 10px;
+    fill: white;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 3px; 
+    cursor: pointer;
+}
+
+.qmehvc:hover .dropdown{
+    width: 10px;
+    fill: white;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 3px; 
+    cursor: pointer;
+}
+
+.amar span,.oi span, .boatarde span, .qmehvc span{
+    color: var(--cor-texto);
+}
+
+.boatarde , .qmehvc{
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: var(--cor-verde);
+    border-radius: 5px;
+}
+
+.dropdown{
+    position: absolute;
+}
+
+.boatarde{
+    margin-right: 10px;
+}
+
+.qmehvc{
+    margin: 5px 10px;
+}
+
+.boatarde .doublecheck, .qmehvc .doublecheck{
+    width: 8px;
+    fill: gray;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.msgsend{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
